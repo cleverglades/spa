@@ -9,8 +9,9 @@ TAGJS="$JS/compiled-tags.js"
 echo '[INFO] Compiling content into content dir'
 rm -rf "$JS"
 mkdir "$JS"
-cp -r "$LIB"/* "$JS/"
+#cp -r "$LIB"/* "$JS/"
 cp -r node_modules/riot/riot.min.js $JS/
 riot $TAGS $TAGJS
 git add "$JS"
 echo '[INFO] Done compiling'
+find $STATIC

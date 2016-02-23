@@ -3,4 +3,4 @@ node_js:
   - "4.1"
 after_success:
   - ./compile
-  - surge --project $STATIC --domain cleverglades.com
+  - surge --project ./static --domain cleverglades.com
