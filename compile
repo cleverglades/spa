@@ -21,6 +21,5 @@ JSES="$(ls $JS/*.js | xargs | tr ' ' "\n" | sed "s|^$JS|<script src=\"/js|;s|$|\
 echo "$JSES"
 sed "s|<!--LIBFILLER-->|$JSES|" 200.html > $STATIC/200.html
 riot $TAGS $TAGJS
-git add "$JS"
 echo '[INFO] Done compiling'
 find $STATIC
