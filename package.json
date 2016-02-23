@@ -1,0 +1,22 @@
+{
+  "name": "spa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleverglades/spa.git"
+  },
+  "author": "Josh Lohrman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cleverglades/spa/issues"
+  },
+  "homepage": "https://github.com/cleverglades/spa#readme",
+  "devDependencies": {
+    "surge": "*"
+  }
+}
