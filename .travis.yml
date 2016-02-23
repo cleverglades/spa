@@ -2,4 +2,5 @@ language: node_js
 node_js:
   - "4.1"
 after_success:
-  - surge --project ./static --domain cleverglades.com
+  - ./compile
+  - surge --project $STATIC --domain cleverglades.com
