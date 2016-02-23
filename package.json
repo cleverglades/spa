@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/cleverglades/spa#readme",
   "devDependencies": {
-    "surge": "*"
+    "surge": "*",
+    "riot":  "*"
   }
 }

@@ -1,1 +1,23 @@
-Does it work?
+<!doctype html>
+<html>
+<head>
+  <title>Cleverglades! Pointless</title>
+</head>
+<body>
+
+<prev-next></prev-next>
+
+<script src="js/riot.min.js"></script>
+<script src="js/compiled-tags.js"></script>
+<script>
+  riot.mount('*')
+  riot.route(function(a,b,c) {
+    riot.route(a,'PAGE: '+a);
+    console.log(a,b,c);
+  })
+  riot.route.base=('');
+  riot.route.start(true);
+</script>
+
+</body>
+</html>
